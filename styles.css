@@ -5,10 +5,13 @@
 }
 
 #logo{
-
+  background: rgb(173, 20, 87);
   margin-left: 30px ;
-
+  width: 100px;
+  text-align: center;
 }
+
+
 
 
 .cont-img {
