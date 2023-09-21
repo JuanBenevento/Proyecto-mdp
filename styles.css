@@ -92,5 +92,23 @@ text-align: center;
 .img_art_tra img {
  border: 2px solid black;
   width: 300px;
+  display: flex;
+  justify-content: center;
 }
  
+
+.articulos{
+  display: flex;
+  background: rgb(173, 20, 87);
+}
+
+.img_art_prod img{
+  border: 2px solid black;
+  width: 300px;
+}
+
+.descrip_art_prod{
+
+  width: 500px;
+  margin-left: 40px;
+}
