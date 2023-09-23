@@ -19,7 +19,7 @@
     <header>
         <!-- barra de navegacion usando bootstrap -->
 
-        <nav class="navbar navbar-expand-lg  navegacion" id="nav">
+        <nav class="navbar navbar-expand-lg fixed-top navegacion" id="nav">
             <div class="container-fluid " >
                 <a class="navbar-brand text-light" id="logo" href="#">Logo</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -32,13 +32,13 @@
                             <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light" href="#">Tratamientos</a>
+                            <a class="nav-link text-light" href="#tratamientos">Tratamientos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light" href="#">Productos</a>
+                            <a class="nav-link text-light" href="#productos">Productos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light" href="#">Contactos</a>
+                            <a class="nav-link text-light" href="#contacto">Contactos</a>
                         </li>
                     </ul>
                 </div>
@@ -49,7 +49,7 @@
 
     <main>
         <div class="cont-img">
-            <img id="img-st" src="./imagenes/antonika-chanel-RJCslxmvBcs-unsplash (1).jpg" alt="">
+            <img class="img-st" src="./imagenes/antonika-chanel-RJCslxmvBcs-unsplash (1).jpg" alt="">
         </div>
         <section id="presentacion">
             <div class="cont_pres"> 
@@ -63,7 +63,8 @@
                         nostra quam sodales placerat porta, accumsan lacinia fermentum ad molestie pretium varius velit
                         netus magna, eleifend malesuada magnis proin ultricies sem sed ac. Curabitur sodales vestibulum
                         pretium velit parturient potenti malesuada ullamcorper duis praesent et felis, gravida non
-                        aenean diam penatibus nibh mollis interdum primis cursus nec.</p>
+                        aenean diam penatibus nibh mollis interdum primis cursus nec.
+                    </p>
                 </div>
             </div>
         </section>
@@ -76,8 +77,8 @@
                     <h2>Tratamientos</h2>
                 </div>
 
-                <div class="img_tra">
-                    <img src="imagenes/tratamientos.jpg" alt="">
+                <div class="cont-img">
+                    <img class="img-st" src="imagenes/tratamientos.jpg" alt="">
                 </div>
 
                 <article class="articulos_tra">
@@ -129,6 +130,7 @@
 
         <section id="productos">
 
+            
 
             <div class="cont_prod">
 
@@ -136,10 +138,14 @@
                     <h2>Productos</h2>
                 </div>
 
+                <div class="cont-img">
+                    <img class="img-st" src ="imagenes/productos.avif" alt="">
+                </div>
+
                 <article class="articulos">
                 
                     <div class="img_art_prod">
-                        <img src="imagenes/TEST.jpg" alt="">
+                        <img class="img_prod" src="imagenes/TEST.jpg" alt="">
                     </div>
                 
                     <div class="tit_des_prod">
@@ -164,7 +170,7 @@
                 <article class="articulos">
 
                     <div class="img_art_prod">
-                        <img src="imagenes/TEST.jpg" alt="">
+                        <img class="img_prod" src="imagenes/TEST.jpg" alt="">
                     </div>
 
                     <div class="tit_des_prod">
@@ -187,28 +193,34 @@
         </section>
 
         <section id="contacto">
-            <div class="tit_art"><h4>Contactanos</h4></div>
+            <div class="titulo"><h3>Contactanos</h3></div>
             <form action="">
                 <div class="fr_nom">
-                    <div><label ></label>nombre</div>
-                    <div><input type="text"></div> 
-                 </div>
-
-                 <div class="fr_email">
-                    <div><label >Email</label></div>
-                    <div><input type="text"></div> 
-                 </div>
-
-                 <div class="fr_Tel">
-                    <div><label >nombre</label></div>
-                    <div><input type="text"></div> 
-                 </div>
-
-                 <div class="caja_text">
+                    <div class="lbl_nom"><label></label>nombre</div>
+                    <div class="CONTC">
+                    <div><input type="text"></div>
+                </div>
+                </div>
+                <div class="fr_tel_mail">
+                    <div class="fr_email">
+                        <div><label>Email</label></div>
+                        <div><input type="text"></div>
+                    </div>
+            
+                    <div class="fr_Tel">
+                        <div><label>Telefono</label></div>
+                        <div><input type="text"></div>
+                    </div>
+                </div>
+                
+                <div class="caja_text">
+                    <div class="CONTC">
                     <input type="text">
-
-                    <button>enviar</button>
-                 </div>
+                </div>
+                    <div class="fr_button">
+                    <button >enviar</button>
+                </div>
+                </div>
             </form>
 
         </section>
