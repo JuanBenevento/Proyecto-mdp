@@ -1,4 +1,4 @@
-* {
+ * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -6,7 +6,7 @@
 
 #nav {
   background: rgb(66, 66, 66 );
-  
+
 }
 
 #logo{
@@ -16,11 +16,15 @@
   text-align: center;
 }
 
-#navbarNav {
+@media screen and (min-width: 769px)  {
+
+ #navbarNav {
 
   display: flex;
   justify-content:right;
   margin-right: 50px;
+
+} 
 
 }
 
@@ -28,15 +32,15 @@ li{
 
   margin-right: 20px;
 
-}
+} 
 
 
 .cont-img {
- 
+
   display: flex;
   justify-content: center;
 
-  
+
 }
 
 .img-st {
@@ -65,14 +69,14 @@ margin-left: 15%;
   text-align:right;
   background: rgba(66, 66, 66);
   color: white;
-  
+
 }
 
 .titulo h2{
   margin-right: 60px;
   padding: 5px;
   font-size: 40px;
-  
+
 }
 
 .titulo h3{
@@ -106,7 +110,7 @@ text-align: center;
 
 }
 
-.descrip_art_tra p{   
+.descrip_art_tra p{
   margin-left: 20px;
   width: 500px;
 
@@ -119,7 +123,7 @@ text-align: center;
  border: 2px solid black;
   width: 300px;
 }
- 
+
 
 .articulos{
   display: flex;
@@ -164,15 +168,15 @@ text-align: center;
 }
 
 .fr_tel_mail{
-  
+
   display: flex;
   justify-content: space-between;
- 
+
 }
 
 .lbl_nom{
 
- 
+
   margin-left: 180px ;
 
 }
