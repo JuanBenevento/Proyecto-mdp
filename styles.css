@@ -1,3 +1,6 @@
+
+  /* general */
+
  * {
     margin: 0px;
     padding: 0px;
@@ -15,56 +18,23 @@
   width: 100px;
   text-align: center;
 }
-
-@media screen and (min-width: 769px)  {
-
- #navbarNav {
-
-  display: flex;
-  justify-content:right;
-  margin-right: 50px;
-
-} 
-
-}
-
 li{
 
   margin-right: 20px;
 
-} 
-
-
+}
 .cont-img {
 
   display: flex;
   justify-content: center;
-
-
 }
 
 .img-st {
- width: 100%;
-height: 570px;
-}
-.nombre{
+  width: 100%;
+ height: 620px;
+ }
 
-    margin: 30px;
-    margin-left: 100px;
-
-}
-
-.descripcion{
-  text-align: center;
-  width: 1000px;
-margin: 50px;
-margin-top: 20px;
-margin-left: 15%;
-
-}
-
-
-.titulo {
+ .titulo {
   height: 70px;
   text-align:right;
   background: rgba(66, 66, 66);
@@ -72,172 +42,294 @@ margin-left: 15%;
 
 }
 
-.titulo h2{
-  margin-right: 60px;
-  padding: 5px;
-  font-size: 40px;
 
-}
-
-.titulo h3{
-  margin-right: 60px;
-  padding: 5px;
-  font-size: 40px;
-}
+    /* vercion de celular */
 
 
+@media screen and (max-width: 992px) {
 
-.img_tra img{
+  .img-st {
+    height: 300px;
+  }
 
-  width: 100%;
-  height: 570px;
-}
-.articulos_tra{
-  width: 1320px;
+  .titulo{
+    width: 400px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+  }
 
-margin: 10px;
-  display: flex;
 
-  justify-content: space-between;
+  .cont_trat_scroll {
 
-}
+    aspect-ratio: 500/500;
+    width: 400px;
+    position: relative;
+    overflow: scroll;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
 
-.tit_art_tra{
-  width: 200px;
-text-align: center;
-    background: rgb(66, 66, 66);
+  .centrado_scroll {
+    display: flex;
+    justify-content: center;
+  }
+
+  .articulos_tra{
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+
+  .tit_art_tra{
+    border-radius: 8px 8px 0px 0px;
+    text-align: center;
+    background-color:rgb(66, 66, 66 );
     color: white;
+    
+  }
 
-}
+  .descrip_art_tra{
+    text-align: center;
+  }
 
-.descrip_art_tra p{
-  margin-left: 20px;
-  width: 500px;
-
-}
-
-
-
-
-.img_art_tra img {
- border: 2px solid black;
-  width: 300px;
-}
-
-
-.articulos{
-  display: flex;
-  background: rgba(255, 153, 102, 0.5);
-  margin: 50px;
-}
-
-.img_art_prod{
+  .img_art_tra{
 
     display: flex;
+    justify-content: center;
+  }
+
+  .img_art_tra img{
+
+    width: 70%;
+
+  }
+
+}
+
+
+
+
+
+
+
+
+/* vercion de escritorio */
+
+
+@media screen and (min-width: 992px)  {
+
+ #navbarNav {
+
+  display: flex;
+  justify-content:right;
+  margin-right: 50px;
+  }
+
+  .nombre{
+
+      margin: 30px;
+      margin-left: 100px;
+
+  }
+
+  .descripcion{
+    text-align: center;
+    /* width:90%; */
+  margin: 50px;
+  margin-top: 20px;
+  margin-left: 15%;
+
+  }
+
+
+  .titulo h2{
+    margin-right: 60px;
+    padding: 5px;
+    font-size: 40px;
+
+  }
+
+
+
+  .titulo h3{
+    margin-right: 60px;
+    padding: 5px;
+    font-size: 40px;
+  }
+
+
+  .img_tra img{
+
+    width: 100%;
+    height: 570px;
+  }
+  .articulos_tra{
+    width: 100%;
+  overflow: scroll;
+  margin: 10px;
+    display: flex;
+
+    justify-content: center;
+
+  }
+
+  .tit_art_tra{
+    width: 200px;
+  text-align: center;
+      background: rgb(66, 66, 66);
+      color: white;
+
+  }
+
+  .descrip_art_tra p{
+    margin-left: 20px;
+    width: 500px;
+
+  }
+
+  .img_art_tra img {
+   border: 2px solid black;
+    width: 300px;
+  }
+
+  .cont_art_prod{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+  }
+
+  .articulos{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    background: rgba(255, 153, 102, 0.5);
+    margin: 50px;
+  }
+
+  .img_art_prod{
+
+      display: flex;
+      align-items: center;
+      margin-left: 50px;
+  }
+
+  .img_prod{
+    border: 2px solid black;
+    width: 200px;
+  }
+  .tit_des_prod{
+
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .tit_art_prod{
+
+    text-align: center;
+
+  }
+
+  .descrip_art_prod{
+
+    width: 500px;
+    margin-left: 40px;
+    text-align: center;
+  }
+
+  .CONTC{
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    margin-left: 50px;
-}
+  }
 
-.img_prod{
-  border: 2px solid black;
-  width: 200px;
-}
-.tit_des_prod{
+  .fr_tel_mail{
 
-  margin-left: 200px;
+    display: flex;
+    justify-content: space-between;
 
-}
+  }
 
-.tit_art_prod{
-
-  text-align: center;
-
-}
-
-.descrip_art_prod{
-
-  width: 500px;
-  margin-left: 40px;
-  text-align: center;
-}
-
-.CONTC{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.fr_tel_mail{
-
-  display: flex;
-  justify-content: space-between;
-
-}
-
-.lbl_nom{
+  .lbl_nom{
 
 
-  margin-left: 180px ;
+    margin-left: 180px ;
 
-}
+  }
+
+  .fr_nom input{
+
+    width: 1000px;
+
+  }
 
 
+  .fr_email{
+
+    margin-top: 30px;
+    margin-left: 200px;
+
+  }
+  .fr_email input{
+    width: 400px;
+  }
+
+  .fr_Tel{
+
+    margin-top: 30px;
+    margin-right: 200px;
+
+  }
+  .fr_Tel input{
+    width: 400px;
+  }
 
 
-.fr_nom input{
+  .caja_text{
+
+    margin-top: 100px;
+  }
+
+  .caja_text input{
 
   width: 1000px;
+  height: 200px;
+  background: rgb(189, 189, 189 );
+  border: none;
+  }
 
-}
+  .fr_button{
+
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .fr_button button{
+
+      padding: 5px;
+      width: 130px;
+      background: rgb(66, 66, 66);
+      color: white;
+
+  }
+
+ }
 
 
-.fr_email{
-
-  margin-top: 30px;
-  margin-left: 200px;
-
-}
-.fr_email input{
-  width: 400px;
-}
-
-.fr_Tel{
-
-  margin-top: 30px;
-  margin-right: 200px;
-
-}
-.fr_Tel input{
-  width: 400px;
-}
 
 
-.caja_text{
 
-  margin-top: 100px;
-}
 
-.caja_text input{
 
-width: 1000px;
-height: 200px;
-background: rgb(189, 189, 189 );
-border: none;
-}
 
-.fr_button{
 
-  display: flex;
-  justify-content: center;
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
 
-.fr_button button{
 
-    padding: 5px;
-    width: 130px;
-    background: rgb(66, 66, 66);
-    color: white;
-
-}
