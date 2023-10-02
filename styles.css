@@ -1,28 +1,29 @@
+/* general */
 
-  /* general */
-
- * {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
 #nav {
-  background: rgb(66, 66, 66 );
+  background: rgb(66, 66, 66);
 
 }
 
-#logo{
+#logo {
   background: rgb(173, 20, 87);
-  margin-left: 30px ;
+  margin-left: 30px;
   width: 100px;
   text-align: center;
 }
-li{
+
+li {
 
   margin-right: 20px;
 
 }
+
 .cont-img {
 
   display: flex;
@@ -31,19 +32,23 @@ li{
 
 .img-st {
   width: 100%;
- height: 620px;
- }
+  height: 620px;
+}
 
- .titulo {
+.titulo {
   height: 70px;
-  text-align:right;
+  text-align: right;
   background: rgba(66, 66, 66);
   color: white;
 
 }
 
 
-    /* vercion de celular */
+
+
+
+
+/* vercion de celular */
 
 
 @media screen and (max-width: 992px) {
@@ -52,7 +57,7 @@ li{
     height: 300px;
   }
 
-  .titulo{
+  .titulo {
     width: 400px;
     margin: auto;
     margin-top: 30px;
@@ -65,12 +70,26 @@ li{
 
   .cont_trat_scroll {
 
+
+
     aspect-ratio: 500/500;
     width: 400px;
     position: relative;
-    overflow: scroll;
+    overflow: auto;
     margin-top: 50px;
     margin-bottom: 50px;
+
+  }
+
+  .cont_trat_scroll::-webkit-scrollbar {
+    width: 7px;
+  }
+
+  .cont_trat_scroll::-webkit-scrollbar-thumb {
+
+    background: rgb(66, 66, 66);
+    border-radius: 50px;
+
   }
 
   .centrado_scroll {
@@ -78,7 +97,7 @@ li{
     justify-content: center;
   }
 
-  .articulos_tra{
+  .articulos_tra {
     border: 1px solid black;
     border-radius: 10px;
     margin-top: 20px;
@@ -86,25 +105,25 @@ li{
   }
 
 
-  .tit_art_tra{
+  .tit_art_tra {
     border-radius: 8px 8px 0px 0px;
     text-align: center;
-    background-color:rgb(66, 66, 66 );
+    background-color: rgb(66, 66, 66);
     color: white;
-    
+
   }
 
-  .descrip_art_tra{
+  .descrip_art_tra {
     text-align: center;
   }
 
-  .img_art_tra{
+  .img_art_tra {
 
     display: flex;
     justify-content: center;
   }
 
-  .img_art_tra img{
+  .img_art_tra img {
 
     width: 70%;
 
@@ -122,33 +141,33 @@ li{
 /* vercion de escritorio */
 
 
-@media screen and (min-width: 992px)  {
+@media screen and (min-width: 992px) {
 
- #navbarNav {
+  #navbarNav {
 
-  display: flex;
-  justify-content:right;
-  margin-right: 50px;
+    display: flex;
+    justify-content: right;
+    margin-right: 50px;
   }
 
-  .nombre{
+  .nombre {
 
-      margin: 30px;
-      margin-left: 100px;
+    margin: 30px;
+    margin-left: 100px;
 
   }
 
-  .descripcion{
+  .descripcion {
     text-align: center;
-    /* width:90%; */
-  margin: 50px;
-  margin-top: 20px;
-  margin-left: 15%;
+
+    margin: 50px;
+    margin-top: 20px;
+    margin-left: 15%;
 
   }
 
 
-  .titulo h2{
+  .titulo h2 {
     margin-right: 60px;
     padding: 5px;
     font-size: 40px;
@@ -157,54 +176,55 @@ li{
 
 
 
-  .titulo h3{
+  .titulo h3 {
     margin-right: 60px;
     padding: 5px;
     font-size: 40px;
   }
 
 
-  .img_tra img{
+  .img_tra img {
 
     width: 100%;
     height: 570px;
   }
-  .articulos_tra{
+
+  .articulos_tra {
     width: 100%;
-  overflow: scroll;
-  margin: 10px;
+
+    margin: 10px;
     display: flex;
 
     justify-content: center;
 
   }
 
-  .tit_art_tra{
+  .tit_art_tra {
     width: 200px;
-  text-align: center;
-      background: rgb(66, 66, 66);
-      color: white;
+    text-align: center;
+    background: rgb(66, 66, 66);
+    color: white;
 
   }
 
-  .descrip_art_tra p{
+  .descrip_art_tra p {
     margin-left: 20px;
-    width: 500px;
+    width: 400px;
 
   }
 
   .img_art_tra img {
-   border: 2px solid black;
+    border: 2px solid black;
     width: 300px;
   }
 
-  .cont_art_prod{
+  .cont_art_prod {
     display: flex;
     flex-direction: column;
-   align-items: center;
+    align-items: center;
   }
 
-  .articulos{
+  .articulos {
     width: 90%;
     display: flex;
     justify-content: center;
@@ -212,124 +232,120 @@ li{
     margin: 50px;
   }
 
-  .img_art_prod{
+  .img_art_prod {
 
-      display: flex;
-      align-items: center;
-      margin-left: 50px;
+    display: flex;
+    align-items: center;
+    /* margin-left: 50px; */
   }
 
-  .img_prod{
+  .img_prod {
     border: 2px solid black;
     width: 200px;
   }
-  .tit_des_prod{
+
+  .tit_des_prod {
 
     display: flex;
     flex-direction: column;
 
   }
 
-  .tit_art_prod{
+  .tit_art_prod {
 
     text-align: center;
 
   }
 
-  .descrip_art_prod{
+  .descrip_art_prod {
 
     width: 500px;
     margin-left: 40px;
     text-align: center;
   }
 
-  .CONTC{
+  .CONTC {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
-  .fr_tel_mail{
+  .fr_tel_mail {
 
     display: flex;
     justify-content: space-between;
 
   }
 
-  .lbl_nom{
+  .lbl_nom {
 
 
-    margin-left: 180px ;
+    margin-left: 180px;
 
   }
 
-  .fr_nom input{
+  .fr_nom input {
 
     width: 1000px;
 
   }
 
 
-  .fr_email{
+  .fr_email {
 
     margin-top: 30px;
     margin-left: 200px;
 
   }
-  .fr_email input{
+
+  .fr_email input {
     width: 400px;
   }
 
-  .fr_Tel{
+  .fr_Tel {
 
     margin-top: 30px;
     margin-right: 200px;
 
   }
-  .fr_Tel input{
+
+  .fr_Tel input {
     width: 400px;
   }
 
 
-  .caja_text{
+  .caja_text {
 
     margin-top: 100px;
   }
 
-  .caja_text input{
+  .caja_text input {
 
-  width: 1000px;
-  height: 200px;
-  background: rgb(189, 189, 189 );
-  border: none;
+    width: 1000px;
+    height: 200px;
+    background: rgb(189, 189, 189);
+    border: none;
+    
   }
 
-  .fr_button{
+  .fr_button {
 
+  
     display: flex;
     justify-content: center;
     margin-top: 50px;
     margin-bottom: 50px;
+    
+    
   }
 
-  .fr_button button{
+  .fr_button button {
 
-      padding: 5px;
-      width: 130px;
-      background: rgb(66, 66, 66);
-      color: white;
-
+    padding: 5px;
+    width: 130px;
+    background: rgb(66, 66, 66);
+    color: white;
+    
   }
 
- }
-
-
-
-
-
-
-
-
-
-
-
+}
