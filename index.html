@@ -11,196 +11,126 @@
 </head>
 
 <body>
-    <header>
-        <!-- barra de navegacion usando bootstrap -->
-
-        <nav class="navbar navbar-expand-lg bg-dark navegacion">
-            <div class="container-fluid " >
-                <a class="navbar-brand text-light" href="#">Logo</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse " id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item ">
-                            <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-light" href="#">Tratamientos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-light" href="#">Productos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-light" href="#">Contactos</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-
-    </header>
-
-    <main>
-        <div class="cont-img">
-            <img id="img-st" src="./imagenes/antonika-chanel-RJCslxmvBcs-unsplash (1).jpg" alt="">
-        </div>
-        <section id="presentacion">
-            <div class="cont_pres"> 
-                <div class="nombre">
-                    <h1>Xiomara</h1>
-                </div>
-
-                <div class="descripcion">
-                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit, donec sem aenean venenatis velit placerat
-                        volutpat, sociosqu cursus molestie laoreet rutrum habitasse. Justo taciti ullamcorper eros nisl
-                        nostra quam sodales placerat porta, accumsan lacinia fermentum ad molestie pretium varius velit
-                        netus magna, eleifend malesuada magnis proin ultricies sem sed ac. Curabitur sodales vestibulum
-                        pretium velit parturient potenti malesuada ullamcorper duis praesent et felis, gravida non
-                        aenean diam penatibus nibh mollis interdum primis cursus nec.</p>
-                </div>
-            </div>
-        </section>
-
-        <section id="tratamientos">
-
-            <div class="cont_trat">
-
-                <div class="titulo">
-                    <h2>Tratamientos</h2>
-                </div>
-
-                <article class="articulos">
-                    <div class="tit_art">
-                        <h3>Tratamiento 1</h3>
-                    </div>
-
-                    <div class="descrip_art">
-
-                        <p>Eu habitasse fames facilisi morbi vel pellentesque ornare gravida nisl ultrices aliquam hac,
-                            lacus pharetra egestas quis feugiat conubia natoque phasellus ut condimentum odio. Porta
-                            vitae placerat lacinia laoreet felis tempus, habitasse aliquet tempor ultrices accumsan
-                            magna, erat egestas blandit suspendisse vehicula.</p>
-
-                    </div>
-                    <div class="img_art">
-                        <img src="" alt="">
-                    </div>
-                </article>
-
-
-                <article class="articulos">
-                    <div class="tit_art">
-                        <h3>Tratamiento 2</h3>
-                    </div>
-
-                    <div class="descrip_art">
-
-                        <p>Eu habitasse fames facilisi morbi vel pellentesque ornare gravida nisl ultrices aliquam hac,
-                            lacus pharetra egestas quis feugiat conubia natoque phasellus ut condimentum odio. Porta
-                            vitae placerat lacinia laoreet felis tempus, habitasse aliquet tempor ultrices accumsan
-                            magna, erat egestas blandit suspendisse vehicula.</p>
-
-                    </div>
-                    <div class="img_art">
-                        <img src="" alt="">
-                    </div>
-                </article>
-            </div>
-        </section>
-
         <section id="productos">
-
 
             <div class="cont_prod">
 
-                <div class="titulo">
+                <div id="tit_prod">
                     <h2>Productos</h2>
                 </div>
 
-                <article class="articulos">
-                    <div class="tit_art">
-                        <h3>producto 1</h3>
+                <div class="cont-img">
+                    <img class="img-st" src ="imagenes/elsa-olofsson-Pm0K9Y3EPUc-unsplash.jpg" alt="">
+                </div>
+
+                <div id="cont_articulos" class="row justify-content-around">
+                    <div class="articulos">
+                        <div class="cont_img">
+                            <img class="img_prod" src="imagenes/priscilla-du-preez-5NQkmZyT03s-unsplash (1).jpg" alt="">
+                        </div>
+
+                        <div class="cont_name_prod">
+                            <h3>producto 2</h3>
+                        </div>
+                        
+                        <div class="cont_description">
+                            <p>Eu habitasse fames facilisi morbi vel pellentesque ornare gravida nisl ultrices aliquam hac,
+                                lacus pharetra egestas quis feugiat conubia natoque phasellus ut condimentum odio.</p>
+                        </div>
                     </div>
 
-                    <div class="descrip_art">
+                    <div class="articulos">
+                        <div class="cont_img">
+                            <img class="img_prod" src="imagenes/priscilla-du-preez-5NQkmZyT03s-unsplash (1).jpg" alt="">
+                        </div>
 
-                        <p>Eu habitasse fames facilisi morbi vel pellentesque ornare gravida nisl ultrices aliquam hac,
-                            lacus pharetra egestas quis feugiat conubia natoque phasellus ut condimentum odio. Porta
-                            vitae placerat lacinia laoreet felis tempus, habitasse aliquet tempor ultrices accumsan
-                            magna, erat egestas blandit suspendisse vehicula.</p>
+                        <div class="cont_name_prod">
+                            <h3>producto 2</h3>
+                        </div>
 
+                        <div class="cont_description">
+                            <p>Eu habitasse fames facilisi morbi vel pellentesque ornare gravida nisl ultrices aliquam hac,
+                                lacus pharetra egestas quis feugiat conubia natoque phasellus ut condimentum odio.</p>
+                        </div>
                     </div>
-                    <div class="img_art">
-                        <img src="" alt="">
+                    
+                    <div class="articulos">
+                        <div class="cont_img">
+                            <img class="img_prod" src="imagenes/priscilla-du-preez-5NQkmZyT03s-unsplash (1).jpg" alt="">
+                        </div>
+
+                        <div class="cont_name_prod">
+                            <h3>producto 2</h3>
+                        </div>
+                        
+                        <div class="cont_description">
+                            <p>Eu habitasse fames facilisi morbi vel pellentesque ornare gravida nisl ultrices aliquam hac,
+                                lacus pharetra egestas quis feugiat conubia natoque phasellus ut condimentum odio.</p>
+                        </div>
                     </div>
-                </article>
 
+                    <div class="articulos">
+                        <div class="cont_img">
+                            <img class="img_prod" src="imagenes/priscilla-du-preez-5NQkmZyT03s-unsplash (1).jpg" alt="">
+                        </div>
 
-                <article class="articulos">
-                    <div class="tit_art">
-                        <h3>producto 2</h3>
+                        <div class="cont_name_prod">
+                            <h3>producto 2</h3>
+                        </div>
+                        
+                        <div class="cont_description">
+                            <p>Eu habitasse fames facilisi morbi vel pellentesque ornare gravida nisl ultrices aliquam hac,
+                                lacus pharetra egestas quis feugiat conubia natoque phasellus ut condimentum odio.</p>
+                        </div>
                     </div>
 
-                    <div class="descrip_art">
 
-                        <p>Eu habitasse fames facilisi morbi vel pellentesque ornare gravida nisl ultrices aliquam hac,
-                            lacus pharetra egestas quis feugiat conubia natoque phasellus ut condimentum odio. Porta
-                            vitae placerat lacinia laoreet felis tempus, habitasse aliquet tempor ultrices accumsan
-                            magna, erat egestas blandit suspendisse vehicula.</p>
-
-                    </div>
-                    <div class="img_art">
-                        <img src="" alt="">
-                    </div>
-                </article>
-            </div>
+                </div>
         </section>
-
         <section id="contacto">
-            <div class="tit_art"><h4>Contactanos</h4></div>
-            <form action="">
-                <div class="fr_nom">
-                    <div><label ></label>nombre</div>
-                    <div><input type="text"></div> 
-                 </div>
-
-                 <div class="fr_email">
-                    <div><label >Email</label></div>
-                    <div><input type="text"></div> 
-                 </div>
-
-                 <div class="fr_Tel">
-                    <div><label >nombre</label></div>
-                    <div><input type="text"></div> 
-                 </div>
-
-                 <div class="caja_text">
-                    <input type="text">
-
-                    <button>enviar</button>
-                 </div>
-            </form>
-
+            <div id="tit_contac">
+                <h2>Contactanos</h2>
+            </div>
+            <div id="text_contac">
+                <h3>Hace tu consulta</h3>
+                <p>Completa el formulario y en breve recibirás tu respuesta.</p>
+            </div>
+                <form action="">
+                    <div class="part-form">
+                        <label id="nombre-label" for="nombre">Nombre:
+                        <input id="nombre" type="text" name="nombre" placeholder="Ingrese su nombre">
+                        </label>
+                        <label id="email-label" for="email">Email:
+                        <input id="email" type="email" name="email" placeholder="Ingrese su email">
+                        </label>
+                        <label id="telefono-label" for="telefono">Telefono:
+                        <input id="telefono" type="tel" name="telefono" placeholder="Ingrese su número telefonico">
+                        </label>
+                    </div>
+                    <div class="part-form">
+                        <label for="consulta">Escribinos tu consulta:
+                        <Textarea id="consulta" name="consulta" placeholder="Cual es tu consulta?"></Textarea>
+                        </label>
+                    </div>
+                </form>
+                <div class="fr_button">
+                    <button>Enviar</button>
+                </div>
         </section>
+        </main>
+        <footer>
+            <div id="cont-footer">
+                <ul>
+                    <li><a href=""></a>Home</li>
+                    <li><a href=""></a>Tratamientos</li>
+                    <li><a href=""></a>Productos</li>
+                    <li><a href=""></a>Contacto</li>
+                </ul>
+            </div>
 
-        
-
-        </section>
-
-
-
-    </main>
-
-<footer>    
-
-
-</footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
         crossorigin="anonymous"></script>
-
 </body>
 </html>
