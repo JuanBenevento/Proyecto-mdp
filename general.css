@@ -21,8 +21,6 @@
   color: white;
 }
 
-/* version escritorio */
-@media screen and (min-width: 992px) {
   .titulo h2 {
     margin-right: 60px;
     padding: 5px;
@@ -34,7 +32,6 @@
     padding: 5px;
     font-size: 40px;
   }
-}
 
 /* version celular */
 @media screen and (max-width: 992px) {
