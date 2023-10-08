@@ -1,0 +1,10 @@
+/* version de escritorio */
+@media screen and (min-width: 992px) {
+  #cont-footer {
+    background-color: violet;
+  }
+
+  #cont-footer li {
+    list-style: none;
+  }
+}
