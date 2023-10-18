@@ -1,10 +1,18 @@
-/* version de escritorio */
-@media screen and (min-width: 992px) {
-  #cont-footer {
-    background-color: violet;
-  }
-
-  #cont-footer li {
-    list-style: none;
-  }
+#cont-footer {
+  background-color: violet;
 }
+
+#cont-footer li {
+  list-style: none;
+}
+
+.wapp-boton {
+  position: fixed;
+  bottom: 35px;
+  right: 35px;
+}
+
+.wapp-boton img {
+  width: 270px;
+}
+
