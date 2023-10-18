@@ -1,44 +1,4 @@
-/* version celular */
-@media screen and (max-width: 768px) {
-  #tit_prod {
-    background: rgb(66, 66, 66);
-  }
-
-  #tit_contac {
-    margin-top: 100px;
-    background-color: rgb(66, 66, 66);
-  }
-
-  #cont_articulos_prod {
-    padding: 3rem;
-  }
-
-  .articulos_prod {
-    background: rgba(255, 153, 102, 0.5);
-    border: 1px solid black;
-    border-radius: 5px;
-    text-align: center;
-    padding: 15px;
-    width: 15rem;
-    height: 28rem;
-    margin: 10px;
-  }
-
-  .img_prod {
-    width: 13rem;
-    height: 13rem;
-    border: 0.5px solid black;
-    border-radius: 5px;
-  }
-
-  .fr_button button {
-    width: 100%;
-  }
-}
-
-/* version de escritorio */
-@media screen and (min-width: 992px) {
-
+/*Compatible con ambas versiones*/ 
   #cont_articulos_prod {
     margin-top: 60px;
     width: 100%;
@@ -50,8 +10,9 @@
     border-radius: 5px;
     text-align: center;
     padding: 15px;
-    width: 17rem;
-    height: 30rem;
+    width: 250px;
+    height: 400px;
+    margin: 35px;
   }
 
   .img_prod {
@@ -67,4 +28,3 @@
     padding: 5px;
     width: 14rem;
   }
-}
