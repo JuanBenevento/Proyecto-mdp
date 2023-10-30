@@ -1,9 +1,18 @@
+@import url(colores.css);
+
 * {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
 }
 
+<<<<<<< Updated upstream:general.css
+=======
+html {
+  overflow-x: hidden;
+}
+
+>>>>>>> Stashed changes:styles/general.css
 .cont-img {
   display: flex;
   justify-content: center;
@@ -17,21 +26,21 @@
 .titulo {
   height: 70px;
   text-align: right;
-  background: rgba(66, 66, 66);
-  color: white;
+  background: var(--main_color);
+  color: var(--texto);
 }
 
-  .titulo h2 {
-    margin-right: 60px;
-    padding: 5px;
-    font-size: 40px;
-  }
+.titulo h2 {
+  margin-right: 60px;
+  padding: 5px;
+  font-size: 40px;
+}
 
-  .titulo h3 {
-    margin-right: 60px;
-    padding: 5px;
-    font-size: 40px;
-  }
+.titulo h3 {
+  margin-right: 60px;
+  padding: 5px;
+  font-size: 40px;
+}
 
 /* version celular */
 @media screen and (max-width: 992px) {
@@ -44,7 +53,6 @@
     margin: auto;
     margin-top: 30px;
     margin-bottom: 30px;
-    padding: 20px;
     text-align: center;
     font-size: 30px;
   }

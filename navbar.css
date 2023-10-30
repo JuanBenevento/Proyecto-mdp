@@ -1,10 +1,10 @@
 /* general */
 #nav {
-  background: rgb(66, 66, 66);
+  background: var(--main_color);
 }
 
 #logo {
-  background: rgb(173, 20, 87);
+  background: var(--logo);
   margin-left: 30px;
   width: 100px;
   text-align: center;

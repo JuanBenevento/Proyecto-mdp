@@ -1,0 +1,34 @@
+#cont-footer {
+  background: var(--main_color);
+  display: flex;
+}
+
+.logo_foot {
+  width: 60px;
+  height: 30px;
+  background: var(--logo);
+  margin: 15px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.redes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.redes img {
+  width: 20px;
+  height: 20px;
+}
+
+.wapp-boton {
+  position: fixed;
+  bottom: 35px;
+  right: 35px;
+}
+
+.wapp-boton img {
+  width: 270px;
+}
