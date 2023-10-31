@@ -25,8 +25,9 @@
 
 .wapp-boton {
   position: fixed;
+  width: 50px;
   bottom:20px;
-  right: 1px;
+  right: 110px;
 }
 .wapp-boton img{
   width: 50px;
