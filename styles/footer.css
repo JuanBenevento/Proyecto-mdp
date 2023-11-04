@@ -43,7 +43,17 @@
     background-color: violet;
   }
 
-  #cont-footer li {
-    list-style: none;
-  }
+#cont-footer li {
+  list-style: none;
 }
+
+.wapp-boton {
+  position: fixed;
+  bottom: 35px;
+  right: 35px;
+}
+
+.wapp-boton img {
+  width: 270px;
+}
+

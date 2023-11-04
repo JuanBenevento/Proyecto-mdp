@@ -79,8 +79,9 @@
     border-radius: 5px;
     text-align: center;
     padding: 15px;
-    width: 17rem;
-    height: 30rem;
+    width: 250px;
+    height: 400px;
+    margin: 35px;
   }
 
   .img_prod {
@@ -96,4 +97,3 @@
     padding: 5px;
     width: 14rem;
   }
-}
