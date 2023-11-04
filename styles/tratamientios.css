@@ -1,6 +1,6 @@
 /* version celular */
 @media screen and (max-width: 992px) {
-  
+
   .cont_trat_scroll {
     aspect-ratio: 500/500;
     width: 400px;
@@ -15,7 +15,7 @@
   }
 
   .cont_trat_scroll::-webkit-scrollbar-thumb {
-    background: rgb(66, 66, 66);
+    background: var(--main_color);
     border-radius: 50px;
 
   }
@@ -35,8 +35,8 @@
   .tit_art_tra {
     border-radius: 8px 8px 0px 0px;
     text-align: center;
-    background-color: rgb(66, 66, 66);
-    color: white;
+    background-color: var(--main_color);
+    color: var(--texto);
   }
 
   .descrip_art_tra {
@@ -70,8 +70,8 @@
   .tit_art_tra {
     width: 200px;
     text-align: center;
-    background: rgb(66, 66, 66);
-    color: white;
+    background: var(--main_color);
+    color: var(--texto);
   }
 
   .descrip_art_tra p {

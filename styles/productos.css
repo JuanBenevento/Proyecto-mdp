@@ -1,4 +1,33 @@
-/* version celular */
+/*Compatible con ambas versiones*/
+#cont_articulos_prod {
+  margin-top: 60px;
+  width: 100%;
+}
+
+.articulos_prod {
+  background: var(--secundary_color);
+  border: 1px solid black;
+  border-radius: 5px;
+  text-align: center;
+  padding: 15px;
+  width: 250px;
+  height: 400px;
+  margin: 35px;
+}
+
+.img_prod {
+  width: 13rem;
+  height: 13rem;
+  border: 0.5px solid black;
+  border-radius: 5px;
+}
+
+.cont_name_prod,
+.cont_description {
+  text-align: center;
+  padding: 5px;
+  width: 14rem;
+}/* version celular */
 @media screen and (max-width: 768px) {
   #tit_prod {
     background: rgb(66, 66, 66);

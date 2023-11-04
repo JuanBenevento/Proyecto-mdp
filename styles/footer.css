@@ -1,3 +1,42 @@
+#cont-footer {
+  background: var(--main_color);
+  display: flex;
+}
+
+.logo_foot {
+  width: 60px;
+  height: 30px;
+  background: var(--logo);
+  margin: 15px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.redes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.redes img {
+  width: 20px;
+  height: 20px;
+}
+
+.wapp-boton {
+  position: fixed;
+  width: 50px;
+  bottom:20px;
+  right: 110px;
+}
+.wapp-boton img{
+  width: 50px;
+  height: 50px;
+}
+
+.wapp-boton img {
+  width: 270px;
+}
 /* version de escritorio */
 @media screen and (min-width: 992px) {
   #cont-footer {
