@@ -1,6 +1,8 @@
 :root {
     --main_color: rgba(66, 66, 66);
+    --main_color_transp: rgba(66, 66, 66);
     --secundary_color: rgba(255, 153, 102, 0.5);
     --logo: rgb(173, 20, 87);
     --texto: white;
+
 }
