@@ -5,9 +5,9 @@
 }
 
 .articulos_prod {
-  background: var(--secundary_color);
-  border: 1px solid black;
-  border-radius: 5px;
+  /* background: var(--secundary_color); */
+  /* border: 1px solid black;
+  border-radius: 5px; */
   text-align: center;
   padding: 15px;
   width: 250px;
@@ -27,6 +27,7 @@
   text-align: center;
   padding: 5px;
   width: 14rem;
+
 }/* version celular */
 @media screen and (max-width: 768px) {
   #tit_prod {
@@ -43,9 +44,9 @@
   }
 
   .articulos_prod {
-    background: rgba(255, 153, 102, 0.5);
+    /* background: rgba(255, 153, 102, 0.5);
     border: 1px solid black;
-    border-radius: 5px;
+    border-radius: 5px; */
     text-align: center;
     padding: 15px;
     width: 15rem;
@@ -71,17 +72,6 @@
   #cont_articulos_prod {
     margin-top: 60px;
     width: 100%;
-  }
-
-  .articulos_prod {
-    background: rgba(255, 153, 102, 0.5);
-    border: 1px solid black;
-    border-radius: 5px;
-    text-align: center;
-    padding: 15px;
-    width: 250px;
-    height: 400px;
-    margin: 35px;
   }
 
   .img_prod {
