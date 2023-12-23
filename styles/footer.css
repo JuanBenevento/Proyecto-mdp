@@ -13,9 +13,13 @@
 }
 
 .redes {
+  width: 100%;
+  padding-right: 5%;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: end;
+  border: 2px solid white;
 }
 
 .redes img {
@@ -37,7 +41,7 @@
 /* version de escritorio */
 @media screen and (min-width: 992px) {
   #cont-footer {
-    background-color: violet;
+    background-color: var(--main_color);
   }
 
 #cont-footer li {
