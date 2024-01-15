@@ -19,12 +19,13 @@
    margin:5px;
  }
 
- #consulta {
-   background-color: gray;
+ #consulta{
+   /* background-color: gray; */
    margin: auto;
-   width: 400px;
- }
-
+   text-align:center;
+   color: black;
+ }  
+ 
  #nombre {
    display: block;
    margin: 10px auto 0px auto;
